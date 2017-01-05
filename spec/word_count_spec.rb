@@ -8,4 +8,7 @@ describe('String#word_count') do
   it("counts how often a word appears in a sentence case insensitive") do
     expect(("DoG").word_count("dOg")).to(eq(1))
   end
+  it("counts how often a word appears in a sentence with special characters") do
+    expect(("DoG!, dOg-").word_count("dOg")).to(eq(2))
+  end
 end
