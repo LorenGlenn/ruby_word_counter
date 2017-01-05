@@ -1,5 +1,6 @@
 require('sinatra')
 require('sinatra/reloader')
+require('./lib/word_count')
 
 get('/') do
   erb(:index)
