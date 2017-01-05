@@ -18,9 +18,7 @@ Can count number of times a word appears in a sentence.
 
 ## Setup/Installation Requirements
 
-Requires Windows and .Net
-
-Clone repository, run ">dnx kestrel" in Powershell and visit "localhost:5004".
+Open browser and navigate to https://afternoon-coast-93795.herokuapp.com/.
 
 ## Known Bugs
 
@@ -29,7 +27,9 @@ None.
 
 ## Technologies Used
 
- C# was used for the backend logic as well as routing with Nancy and testing with Xunit. Razor was used to display data on the html pages.
+Ruby
+HTML
+Sinatra
 
 ## Support and contact details
 
